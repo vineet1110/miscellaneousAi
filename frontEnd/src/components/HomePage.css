@@ -1,0 +1,88 @@
+.home-page {
+  text-align: right;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.create-agent-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-agent-btn:hover {
+  background-color: #000000;
+}
+
+.agent-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.agent-item {
+  width: 60%;
+  /* Adjust based on your preference */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: left;
+  /* Align text within the box */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.agent-item p {
+  margin: 5px 0;
+}
+
+.agent-item button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.agent-item button:hover {
+  background-color: #007bb5;
+}
+
+#home-Delete-btn {
+  background-color: red;
+  margin-left: 5px;
+}
+
+/* Modal styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(169, 163, 163, 0.5);
+  /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+}

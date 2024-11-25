@@ -1,0 +1,61 @@
+  /* Style for the form container */
+form {
+  width: 50%;
+  /* Takes up 50% of the container */
+  margin: 25px 0 75px 25px;
+  /* 25px top, 75px bottom, 25px left spacing */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Label styling */
+label {
+  display: block;
+  font-size: 18px;
+  /* Slightly larger font size */
+  margin-bottom: 8px;
+  /* Adds spacing between the label and input */
+}
+
+.agent-details-f {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+
+/* Input field styling */
+input[type="text"] {
+  width: 100%;
+  /* Takes full width of the container */
+  padding: 10px;
+  font-size: 16px;
+  /* Slightly larger font size */
+  margin-bottom: 20px;
+  /* Adds space below the input fields */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styling */
+#agentSaveBtn {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  background-color: #000000;
+  /* Green button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #ec3a12;
+}
